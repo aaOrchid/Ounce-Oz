@@ -494,6 +494,12 @@ ul.productMetas li a i {
     text-align: -webkit-center;
 }
 
+@media only screen and (max-width: 768px){
+.product-wrapper {
+    margin-top: 80px;
+    }
+}
+
 /*End of Home Body / Content*/
 
 /* Shop */
