@@ -1,0 +1,165 @@
+/* Default CSS */
+
+/*Navigation*/
+.sticky-header:not(.no-bg):not(.dark-head):not(.header19):not(.transparent-head){
+    background: #fff;
+}
+
+.navbar-default{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header-top.primary{
+    background-color: #fff;
+}
+
+.top-nav.dropdown.type2{
+    background: #007F4D !important;
+}
+
+.top-nav.type2 > ul > li > a {
+    color: #fff !important;
+}
+
+.header-top.primary a{
+    color: #007F4D !important;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+
+.quick-contact:hover > i{
+    background-color: transparent;
+}
+
+.navbar-brand>img{
+    width: 100%;
+}
+
+#head .navbar-default .navbar-nav>li>a.current-active{
+    color: #fff !important;
+}
+
+a{
+    color: #fff !important;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav .dropdown-menu > li > a:hover{
+    color: #bcbcbc !important;;
+}
+
+.navbar-default {
+    background: rgb(0,127,77);
+    background: linear-gradient(0deg, rgba(0,127,77,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+@media (max-width: 768px){
+    .navbar-nav {
+    background: #000 !important;
+    }
+
+    .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #4d4d4d !important;
+    }
+
+    #head .navbar-default .navbar-nav>li>a, .dropdown-menu > li > a {
+    color: #fff !important;
+    }
+
+    .navbar-nav.sm-collapsible a.has-submenu {
+    background-color: #000;
+    }
+
+    #head .navbar-collapse.collapse.in {
+    background-color: #000;
+    }
+
+    .navbar-default .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .has-submenu.highlighted {
+    background: #4d4d4d !important;
+    color: #000 !important;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    background-color: #4d4d4d !important;
+    color: #fff !important;
+    }
+}
+
+
+
+
+/*End of Navigation*/
+
+
+
+/*Newsletter*/
+
+.newsletter{
+    background: #000;
+}
+
+.btn-default{
+    background:#007F4D !important;   
+}
+
+@media (max-width: 767px){
+.newsletter {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+}
+
+/*End of Newsletter*/
+
+
+
+/*Body / Content*/
+
+body{
+    background-color: #fff;
+    color: #000 !important;
+    font-size: 16px;
+}
+
+.btn-gld {
+    background:#007F4D !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007F4D !important;
+}
+
+.videoplayer{
+    display: block;
+    margin: 0 auto;
+}
+
+.videocontain{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.welcome{
+    padding-top: 50px;
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+.welcome h2 {
+    color: #007F4D !important;
+    }
+}
+
+@media (max-width: 767px){
+.welcome p {
+    text-align: center !important;
+    }
+}
