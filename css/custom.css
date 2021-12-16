@@ -583,6 +583,15 @@ span.current-price, div#storecat h2 > a{
     color: #000 !important;
 }
 
+.contact section{
+    margin-top: 60px;
+}
+
+#contact .contact h2, .contact p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /*End Contact Us*/
 
 /*About Us*/
@@ -605,3 +614,14 @@ p.itemrow-all-data {
     border-color: #007F4D;
 }
 /*End About Us*/
+
+/*Footer*/
+
+.footer-widget {
+    padding-bottom: 40px !important;
+}
+
+/*End Footer*/
+.fa-angle-right:before{
+    content: none !important;
+}
