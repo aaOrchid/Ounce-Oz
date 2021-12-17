@@ -622,6 +622,6 @@ p.itemrow-all-data {
 }
 
 /*End Footer*/
-.fa-angle-right:before{
+.footer-widget .fa-angle-right:before{
     content: none !important;
 }
