@@ -554,11 +554,17 @@ span.sku_wrapper > span{
 }
 
 .review-form .input-field .btn-ash-border {
-    color: #007F4D;
+    color: #fff;
 }
 
 input[type="submit"] {
-    background: transparent;
+    background: #007F4D;
+}
+
+.btn-blue:hover, .btn-blue:focus{
+    background-color: #fff;
+    color: #007F4D;
+    border: 1px solid #007F4D;
 }
 
 .btn-ash-border {
