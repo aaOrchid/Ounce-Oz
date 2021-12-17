@@ -596,6 +596,10 @@ span.current-price, div#storecat h2 > a{
 
 /*About Us*/
 
+.content-area.travel2 {
+    margin-top: 60px;
+}
+
 p.itemrow-all-data {
     background: #007F4D;
     color: #fff;
